@@ -11,7 +11,7 @@ The UUID2Name tool, once pointed to a folder with UUID-named .i6z files, will au
 
 ## Requirements
 - Python 3.x.x
-- .i6z files (dah!)
+- .i6z files
 
 ## Notes
 - Make sure to keep a backup of the folder fed to this tool, as the original files will be overwritten with the new filenames (you have been warned...)
