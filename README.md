@@ -2,7 +2,7 @@
 Substitutes the UUID filenames of [IUCLID](https://iuclid6.echa.europa.eu/project-iuclid-6) .i6z files with their entity names.
 
 ## Description
-[IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6), by default, exports data using the filename convention "<UUID>.i6z" (i.e. "1cb2b9b5-b9bd-44ee-abe8-840856bbf5c6.i6z"). However, the need to distinguish such files by their Entity name arises quite often. Until now the usual method to find out the actual Entity name was to import the file into a [IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6) instance and open the concerned Entity. This process is time-consuming and tedious, especially when dealing with hundreds or even thousands of files. And, requires the presence of a [IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6) installation.
+[IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6), by default, exports data using the filename convention `<UUID>.i6z` (i.e. `1cb2b9b5-b9bd-44ee-abe8-840856bbf5c6.i6z`). However, the need to distinguish such files by their Entity name arises quite often. Until now the usual method to find out the actual Entity name was to import the file into a [IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6) instance and open the concerned Entity. This process is time-consuming and tedious, especially when dealing with hundreds or even thousands of files. And, requires the presence of a [IUCLID 6](https://iuclid6.echa.europa.eu/project-iuclid-6) installation.
 
 The UUID2Name tool, once pointed to a folder with UUID-named .i6z files, will automatically rename all such UUID filenames into their corresponding Entity names. Additionally, it will create a report in .csv format that outlines and maps the UUID filenames to the Entity names that substituted them.
 
@@ -18,3 +18,9 @@ The UUID2Name tool, once pointed to a folder with UUID-named .i6z files, will au
 - Files with identical Entity names are distinguished by adding incremented numbers at the end of their filenames
 - Does not require the presence of a IUCLID 6 installation
 - This is v0.1 so don't expect miracles
+
+## Like what you see?
+
+If you find the **UUID2Name** interesting then why not buy me a coffee?
+
+[![BuyMeACoffee](https://user-images.githubusercontent.com/4114200/63639089-672f6a00-c698-11e9-9fac-3b6fcac47901.png)](https://www.buymeacoffee.com/ADYsLjqfi)
